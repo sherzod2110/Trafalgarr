@@ -1,0 +1,303 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Mulish', sans-serif;
+}
+.box-1{
+  list-style: none;
+  display: flex;
+  margin: auto;
+  
+ 
+}
+.ourservis{
+  width: 1200px;
+  margin: auto;
+}
+.box-2{
+  text-decoration: none;
+}
+.box-0{
+  display: flex;
+  width: 1200px;
+  margin: auto;
+}
+.box-3{
+  text-decoration: none;
+  color: rgb(104, 101, 101);
+  margin: 20px;
+}
+.box-5{
+  color: darkgray;
+  font-family: Mulish;
+}
+ 
+.box-great{
+  text-decoration: none;
+  color: aliceblue;
+}
+.box-6{
+  border-radius: 14px;
+  width: 130px;
+  height: 40px;
+  
+}
+.box-7{
+  background-color: #458FF6;
+  border-radius: 50px;
+  border: none;
+  color: antiquewhite;
+  padding: 10px;
+  width: 140px;
+  cursor: pointer; 
+}
+.birlar{
+  width: 400px;
+  margin-top: 150px;
+}
+.indek{
+  justify-content: space-between;
+  width: 1200px;
+  display: flex;
+  margin: auto;
+}
+.qwerty{
+  width: 500px;
+}
+.pul{
+  width: 1200px;
+  margin-left:1px ;
+}
+.lere{
+  width: 80px;
+  height: 80px;
+}
+
+.ishon{
+  text-align: center;
+}
+.chiziq{
+  width: 70px;
+  
+}
+.chiziqcha{
+  width: 1200px;
+  margin: auto;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.lis-taim{
+  background-color:rgb(250, 249, 249);
+  width: 300px;
+  margin-bottom: 35px;
+  padding: 30px;
+  border-radius: 10%;
+  
+}
+
+.battan{
+  border: 2px solid blue;
+  border-radius: 40px;  
+  padding: 9px 30px;
+  cursor: pointer;
+}
+.ffff{
+  text-decoration: none;
+  color: blue;
+}
+.battann{
+  border: 2px solid blue;
+  border-radius: 40px;  
+  padding: 9px 30px;
+  cursor: pointer;
+}
+.urta{
+  text-align: center;
+}
+.achki{
+  margin-left:50px;
+  width: 70px;
+}
+.lading{
+  width: 600px;
+  padding: 140px;
+}
+.solo{
+  width: 1200px;
+  display: flex;
+  margin: auto;
+  
+}
+.nomer{
+  width: 1200px;
+  margin: auto;
+}
+.vivo{
+  margin-left: 50px;
+  width: 80px;
+  text-align: start;
+}
+.lalala{
+  width: 1200px;
+  display: flex;
+  margin: auto;
+  
+}
+.quti{
+  width: 400px;
+  margin-left: 100px;
+  margin-top: 90px;
+}
+.telfon{
+  color: darkgrey;
+}
+
+.zxcvb{
+  border: 2px solid blue;
+  border-radius: 15px;
+  padding: 5px 30px;
+  cursor: pointer;
+}
+.ruchka{
+  font-size: 130%;
+}
+.qizil{
+  text-decoration: none;
+  color: blue;
+}
+.mishka{
+  display: flex;
+}
+.wifi{
+  text-align: center;
+}
+.tuk{
+  width: 70px;
+}
+.telfon{
+  border-radius: 50px;
+}
+.setka{
+  width: 1200px;
+  margin: auto;
+}
+.molia{
+  width: 1200px;
+  height: 250px;
+  background-color: #67C3F3;
+  display: inline-block ;
+  border-radius: 3%;
+}
+.zamok{
+  width: 1200px;
+  margin: auto;
+}
+.personimg{
+  margin-left: 50px;
+  border-radius: 80px;
+}
+.osmon{
+  width: 1200px;
+  margin: auto;
+}
+.oppo{
+  display: inline-block;
+}
+.fifa{
+  color: aliceblue;
+  display: inline-block;
+}
+
+
+.gollo{
+  padding-left: 200px;
+  color: aliceblue;
+}
+.sdfgh{
+  display: inline-block;
+}
+.klav{
+  padding-left: 450px;
+}
+.laliga{
+  text-align: center;
+}
+.dono{
+  width: 70px;
+}
+.nike{
+  list-style-type: none;
+  display: flex;
+}
+.noshnik{
+  text-decoration: none;
+}
+.shalo{
+  color: darkgray;
+}
+.najot{
+  margin-left: 110px;
+}
+.gallaxy{
+  text-decoration: none;
+  color: blue;
+}
+.appll{
+  padding: 6px 50px;
+  margin-left: 600px;
+  border: 2px solid blue;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.sila{
+  width: 1200px;
+  margin: auto;
+}
+.qirq{
+  width: 1200px;
+  height: 250px;
+  margin-top: auto;
+  display: flex;
+  margin-left: 180px;
+  background-color: #67C3F3;
+}
+.bola{
+  justify-content: space-between;
+  list-style-type: none;
+  margin-left: 100px;
+  
+  color: rgb(249, 252, 255);
+}
+.dula{
+  color: darkgray;
+}
+.tele{
+  color: darkgray;
+}
+.redmi{
+  color: darkgray;
+  text-align: center;
+}
+.box-8{
+  color: black;
+  text-decoration: none;
+}
+.anti{
+  margin-top: 30px;
+}
+.fofo{
+  font-size: 1px;
+  width: 1200px;
+  height: 100px;
+  margin: auto;
+}
+.folo{
+  margin-top: 35px;
+}
+.hovli{
+  margin-top: 30px;
+}
