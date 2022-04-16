@@ -7,9 +7,8 @@ body{
 .box-1{
   list-style: none;
   display: flex;
-  margin: auto;
-  
- 
+  margin: 0;
+  padding: 0;
 }
 .ourservis{
   width: 1200px;
@@ -21,16 +20,27 @@ body{
 .box-0{
   display: flex;
   width: 1200px;
-  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
 }
 .box-3{
+  font-weight: bold;
   text-decoration: none;
-  color: rgb(104, 101, 101);
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #1F1534;
+  opacity: 0.5;
   margin: 20px;
 }
 .box-5{
   color: darkgray;
-  font-family: Mulish;
+  width: 400px;
 }
  
 .box-great{
@@ -44,23 +54,36 @@ body{
   
 }
 .box-7{
-  background-color: #458FF6;
-  border-radius: 50px;
+  width: 200px;
+  height: 56px;
+  background: #458FF6;
+  border-radius: 55px;
   border: none;
-  color: antiquewhite;
-  padding: 10px;
-  width: 140px;
   cursor: pointer; 
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #FFFFFF;
 }
 .birlar{
-  width: 400px;
-  margin-top: 150px;
+  width: 486px;
+}
+.sherzod {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #000000;
 }
 .indek{
-  justify-content: space-between;
   width: 1200px;
   display: flex;
-  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .qwerty{
   width: 500px;
@@ -79,7 +102,10 @@ body{
 }
 .chiziq{
   width: 70px;
-  
+  height: 2px;
+  background-color: #000000;
+  margin-left: auto;
+  margin-right: auto;
 }
 .chiziqcha{
   width: 1200px;
@@ -89,37 +115,57 @@ body{
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding: 0;
 }
 .lis-taim{
-  background-color:rgb(250, 249, 249);
-  width: 300px;
+  width: 350px;
+  height: 300px;
   margin-bottom: 35px;
   padding: 30px;
-  border-radius: 10%;
-  
+  background: #FFFFFF;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
 }
 
 .battan{
-  border: 2px solid blue;
-  border-radius: 40px;  
-  padding: 9px 30px;
+  width: 200px;
+  height: 56px;
+  background-color: #FFFFFF;
   cursor: pointer;
+  border: 2px solid #458FF6;
+  box-sizing: border-box;
+  border-radius: 55px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #458FF6;
 }
 .ffff{
   text-decoration: none;
   color: blue;
 }
 .battann{
-  border: 2px solid blue;
-  border-radius: 40px;  
   padding: 9px 30px;
   cursor: pointer;
+  border: 2px solid #458FF6;
+  box-sizing: border-box;
+  border-radius: 55px;
+  background-color: #FFFFFF;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #458FF6;
 }
 .urta{
   text-align: center;
 }
 .achki{
-  margin-left:50px;
+  height: 3px;
+  border-radius: 5px;
+  background-color: #000000;
+  margin-left: 0px;
   width: 70px;
 }
 .lading{
@@ -130,7 +176,7 @@ body{
   width: 1200px;
   display: flex;
   margin: auto;
-  
+  justify-content: space-between;
 }
 .nomer{
   width: 1200px;
@@ -145,22 +191,29 @@ body{
   width: 1200px;
   display: flex;
   margin: auto;
-  
+  justify-content: space-between;
+  align-items: center;
 }
 .quti{
   width: 400px;
-  margin-left: 100px;
-  margin-top: 90px;
 }
 .telfon{
   color: darkgrey;
 }
 
 .zxcvb{
-  border: 2px solid blue;
-  border-radius: 15px;
-  padding: 5px 30px;
+  width: 200px;
+  height: 56px;
   cursor: pointer;
+  background-color: #FFFFFF;
+  border: 2px solid #458FF6;
+  box-sizing: border-box;
+  border-radius: 55px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #458FF6;
 }
 .ruchka{
   font-size: 130%;
@@ -173,10 +226,23 @@ body{
   display: flex;
 }
 .wifi{
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #FFFFFF;
   text-align: center;
+  margin: 0;
+  margin-top: 10px;
 }
 .tuk{
   width: 70px;
+  height: 3px;
+  border-radius: 2px;
+  background-color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
 }
 .telfon{
   border-radius: 50px;
@@ -186,11 +252,13 @@ body{
   margin: auto;
 }
 .molia{
+  padding: 10px;
   width: 1200px;
-  height: 250px;
-  background-color: #67C3F3;
-  display: inline-block ;
-  border-radius: 3%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+  border-radius: 24px;
 }
 .zamok{
   width: 1200px;
@@ -205,19 +273,33 @@ body{
   margin: auto;
 }
 .oppo{
+  margin-top: 30px;
   display: inline-block;
 }
 .fifa{
-  color: aliceblue;
   display: inline-block;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  color: #FFFFFF;
 }
-
+.fifa2 {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 32px;
+}
 
 .gollo{
   padding-left: 200px;
   color: aliceblue;
 }
 .sdfgh{
+  margin-top: -33px;
+  margin-left: 20px;
   display: inline-block;
 }
 .klav{
@@ -225,22 +307,63 @@ body{
 }
 .laliga{
   text-align: center;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+  color: #000000;
 }
 .dono{
   width: 70px;
+  height: 3px;
+  background: #000000;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 500px;
 }
 .nike{
+  width: 1200px;
+  justify-content: space-between;
   list-style-type: none;
   display: flex;
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.box_wrap {
+  display: flex;
+  align-items: center;
 }
 .noshnik{
   text-decoration: none;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 28px;
+  color: #4089ED;
+}
+
+.box-inner {
+  margin-left: 26px;
+  margin-bottom: 10px;
 }
 .shalo{
   color: darkgray;
 }
 .najot{
-  margin-left: 110px;
+  background: #FFFFFF;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
 }
 .gallaxy{
   text-decoration: none;
@@ -254,22 +377,23 @@ body{
   cursor: pointer;
 }
 .sila{
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
   width: 1200px;
-  margin: auto;
 }
 .qirq{
   width: 1200px;
   height: 250px;
-  margin-top: auto;
+  padding-top: 40px;
   display: flex;
-  margin-left: 180px;
-  background-color: #67C3F3;
+  margin-left: auto;
+  margin-right: auto;
 }
 .bola{
+  width: 500px;
   justify-content: space-between;
   list-style-type: none;
-  margin-left: 100px;
-  
   color: rgb(249, 252, 255);
 }
 .dula{
@@ -283,10 +407,12 @@ body{
   text-align: center;
 }
 .box-8{
+  font-weight: bold;
   color: black;
   text-decoration: none;
 }
 .anti{
+  width: 500px;
   margin-top: 30px;
 }
 .fofo{
@@ -300,4 +426,23 @@ body{
 }
 .hovli{
   margin-top: 30px;
+}
+
+.foter {
+  width: 100%;
+  background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
+
+.imgv {
+  margin-left: 10px;
+}
+
+.link__foter {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 28px;
+  color: #4089ED;
+  text-decoration: none;
 }
