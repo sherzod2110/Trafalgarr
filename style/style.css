@@ -5,8 +5,11 @@ body{
   font-family: 'Mulish', sans-serif;
 }
 .box-1{
+  width: 545px;
   list-style: none;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin: 0;
   padding: 0;
 }
@@ -27,8 +30,6 @@ body{
   margin-top: 10px;
 }
 .box-3{
-  font-weight: bold;
-  text-decoration: none;
   font-family: 'Mulish';
   font-style: normal;
   font-weight: 400;
@@ -36,8 +37,10 @@ body{
   line-height: 23px;
   color: #1F1534;
   opacity: 0.5;
-  margin: 20px;
+  text-decoration: none;
 }
+
+
 .box-5{
   color: darkgray;
   width: 400px;
@@ -65,6 +68,12 @@ body{
   font-weight: 700;
   font-size: 18px;
   color: #FFFFFF;
+  transition: all 0.5s ease;
+}
+.box-7:hover{
+  background-color: #FFFFFF;
+  border: 2px solid #458FF6;
+  color: #458FF6;
 }
 .birlar{
   width: 486px;
@@ -125,8 +134,16 @@ body{
   background: #FFFFFF;
   box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
   border-radius: 20px;
+  transition: all 0.5s ease;
+  cursor: pointer;
 }
-
+.lis-taim:hover{
+  box-shadow: 10px 40px 50px rgba(171, 171, 171, 0.4);
+}
+.lis-taim:active{
+  transform: scale(0.9);
+  box-shadow: 10px 40px 50px rgba(171, 171, 171, 0.4);
+}
 .battan{
   width: 200px;
   height: 56px;
@@ -140,6 +157,12 @@ body{
   font-weight: 700;
   font-size: 18px;
   color: #458FF6;
+  transition: all 0.5s ease;
+}
+.battan:hover{
+  background-color: #458FF6;
+  border: 2px solid #458FF6;
+  color: #fff;
 }
 .ffff{
   text-decoration: none;
@@ -157,6 +180,12 @@ body{
   font-weight: 700;
   font-size: 18px;
   color: #458FF6;
+  transition: all 0.5s ease;
+}
+.battann:hover{
+  background-color: #458FF6;
+  border: 2px solid #458FF6;
+  color: #fff;
 }
 .urta{
   text-align: center;
@@ -214,6 +243,12 @@ body{
   font-weight: 700;
   font-size: 18px;
   color: #458FF6;
+  transition: all 0.5s ease;
+}
+.zxcvb:hover{
+  background-color: #458FF6;
+  border: 2px solid #458FF6;
+  color: #fff;
 }
 .ruchka{
   font-size: 130%;
@@ -361,6 +396,7 @@ body{
   color: darkgray;
 }
 .najot{
+  width: 350px;
   background: #FFFFFF;
   box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
   border-radius: 20px;
@@ -407,8 +443,12 @@ body{
   text-align: center;
 }
 .box-8{
-  font-weight: bold;
-  color: black;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #1F1534;
   text-decoration: none;
 }
 .anti{
